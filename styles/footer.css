@@ -1,0 +1,54 @@
+.footer {
+    background-color: #fff;
+    color: #333;
+    padding: 20px 0;
+}
+
+.footer__right{
+    padding-left: 18%;
+}
+.footer__text {
+    text-align: left;
+    font-weight: bold;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.footer__text:nth-child(2) {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.footer__links {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.footer__link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer__link:hover {
+    color: #aaa;
+}
+.footer {
+    background-color: #f8f8f8; /* Цвет фона подвала */
+    padding: 20px; /* Отступы внутри подвала */
+}
+
+.foot_all {
+    display: flex; /* Используем Flexbox для размещения элементов */
+    justify-content: space-between; /* Размещаем элементы по краям */
+    align-items: center; /* Выравнивание по центру по вертикали */
+}
+
+.foot_left {
+    margin-top: 5%;
+    margin-right: 17%
+}
+
+.footer__right {
+    text-align: right; /* Текст справа выравнивается вправо */
+}

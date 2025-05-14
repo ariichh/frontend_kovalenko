@@ -1,0 +1,178 @@
+.hero {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.buttonjoin {
+    background-color: #3D1EDD;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonjoin:hover {
+    background-color: #3D1EDD;
+}
+
+.hero-image {
+    width: 50%;
+    height: 900px;
+    margin-top: 40px;
+}
+
+/* Quote Section */
+.quote {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.quote blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Info Section */
+.info {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+}
+
+.info-image {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.feature {
+    width: 30%;
+    text-align: left;
+}
+
+.thick-line {
+    border: none;
+    height: 5px;
+    background-color: #007BFF;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.feature:hover .thick-line {
+    background-color: #0056b3;
+}
+
+.features .feature:not(:hover) .thick-line {
+    opacity: 0.3;
+}
+#features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .feature {
+    margin: 20px;
+    width: calc(33.33% - 40px); /* Установите ширину так, чтобы карточки вмещались в ряд */
+    text-align: left;
+  }
+  
+  .feature hr {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+
+/* Connect Section */
+.connect {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.connect .container {
+    display: flex;
+    align-items: center;
+}
+
+.connect-image {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10%;
+}
+
+.connect-text {
+    max-width: 600px;
+}
+
+.connect-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.connect-text p {
+    font-size: 18px;
+}
+
+/* CTA Section */
+.cta {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0;
+    margin-top: 40px;
+}
+
+.cta .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-container {
+    max-width: 400px;
+}
+
+.cta h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    background-color: #3D1EDD;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #3D1EDD;
+}
+
+.cta-image {
+    max-width: 100%;
+    height: auto;
+}

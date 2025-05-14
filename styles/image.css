@@ -1,0 +1,13 @@
+.images{
+    align-items: center;
+    margin-top: 50px;
+}
+.img_dop1{
+    width: 70px;
+    margin-left: -300px;
+
+}
+.img_dop2{
+    width: 70px;
+    margin-left: 210px;
+}

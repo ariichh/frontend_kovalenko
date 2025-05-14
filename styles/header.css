@@ -1,0 +1,31 @@
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+header .container {
+    display: flex; /* Используем Flexbox для размещения элементов в ряд */
+    justify-content: space-between; /* Размещаем логотип и навигацию по краям */
+    align-items: center; /* Выравнивание по центру по вертикали */
+
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+header nav {
+    display: flex; /* Используем Flexbox для навигации */
+}
+
+header nav a {
+    margin-left: 20px; /* Отступ между ссылками */
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px; /* Отступы для кнопок */
+    border-radius: 5px; /* Скругление углов */
+    display: flex; /* Используем Flexbox для выравнивания текста */
+    align-items: center; /* Вертикальное выравнивание текста по центру */
+}
